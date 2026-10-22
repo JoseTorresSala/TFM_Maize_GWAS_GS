@@ -1,0 +1,17 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+# Excluir datos pesados originales y procesados
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+# Archivos temporales de R y paquetes genómicos
+*.tar.gz
+*.vcf
+*.vcf.gz
+*.h5
+.httr-oauth
+.DS_Store
+.quarto
